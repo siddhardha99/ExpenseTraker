@@ -16,6 +16,7 @@ const Expenses = (props) => {
         selected={filteredYear}
         onchangefilter={filterChangeHandler}
       />
+      <div className="expenses__list"></div>
 
       <ExpenseItem
         title={props.items[0].title}
